@@ -27,3 +27,9 @@ cacheSolve <- function(x, ...) {
   x$setinversematrix(invm)
   invm
 }
+
+#test out the functions, and it works well
+a <- matrix(1:4,2,2)
+b <- makeCacheMatrix(a)
+cacheSolve(b)
+
